@@ -1,0 +1,228 @@
+/* Add your custom styles here */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c4e0e5 0%, #f6f9fb 100%);
+    
+    
+  }
+  
+  header {
+    background-color: #8a4d4d;
+    color: #fff;
+    padding: 10px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .schoolName {
+    margin-left: 75px;
+    color: #d33a3a;
+  }
+  .logo {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color:#d33a3a ;
+border: none;
+border-radius: 10px 20px 30px 40px;
+
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  :hover
+  nav ul li a {
+color: #20ca67;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(31, 28, 28, 0.8);
+  }
+
+
+  /* CSS for the footer */
+footer {
+  background-color: #0f0f0f;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ec4c4c;
+}
+
+.footer-column p {
+  margin: 0;
+  color: #fffdfd;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #fffdfd;
+
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #dad7d7;
+}
+.fb-icon{
+
+   display: block; 
+    max-width: 50px;
+    margin: 20px auto;  
+    border-radius: 20px;
+    width: 50px;
+    height: 50px; 
+     padding: 10px;
+     margin: 10px; 
+}
+.twitter-icon{
+  display: block; 
+    max-width: 50px;
+    margin: 20px auto;  
+    border-radius: 20px;
+    width: 50px;
+    height: 50px; 
+     padding: 10px;
+     margin: 10px; 
+}
+.instagram-icon{
+  display: block; 
+    max-width: 50px;
+    margin: 20px auto;  
+    
+    width: 50px;
+    height: 50px; 
+     padding: 10px;
+     margin: 10px; 
+     border-radius: 25px;
+}
